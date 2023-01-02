@@ -15,4 +15,5 @@ spec:
     kind: GitRepository
     name: instavote
   timeout: 2m0s
+  targetNamespace: instavote
 
