@@ -1,5 +1,3 @@
-Flag --validation has been deprecated, this arg is no longer used, all resources are validated using server-side apply dry-run
----
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
@@ -13,7 +11,7 @@ spec:
     name: vote
     namespace: instavote
   interval: 1m0s
-  path: ./deploy/vote
+  path: ./deploy/vote/dev
   prune: true
   sourceRef:
     kind: GitRepository
