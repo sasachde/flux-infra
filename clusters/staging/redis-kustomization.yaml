@@ -9,7 +9,7 @@ spec:
     name: redis
     namespace: instavote
   interval: 1m0s
-  path: ./deploy/redis/dev
+  path: ./deploy/redis/staging
   prune: true
   sourceRef:
     kind: GitRepository
