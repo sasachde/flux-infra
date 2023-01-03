@@ -4,6 +4,8 @@ metadata:
   name: worker-staging
   namespace: flux-system
 spec:
+  dependsOn:
+  - name: redis-dev
   healthChecks:
   - kind: Deployment
     name: worker
