@@ -8,7 +8,7 @@ spec:
   - kind: Deployment
     name: vote
     namespace: instavote
-  interval: 1m0s
+  interval: 1h
   path: ./deploy/vote/staging
   prune: true
   sourceRef:

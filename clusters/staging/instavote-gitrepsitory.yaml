@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   gitImplementation: go-git
-  interval: 1m
+  interval: 1h
   ref:
     branch: main
   timeout: 1m0s

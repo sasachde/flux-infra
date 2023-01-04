@@ -8,7 +8,7 @@ spec:
   - kind: Deployment
     name: redis
     namespace: instavote
-  interval: 1m0s
+  interval: 1h
   path: ./deploy/redis/staging
   prune: true
   sourceRef:
