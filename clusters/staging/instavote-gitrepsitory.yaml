@@ -9,5 +9,7 @@ spec:
   ref:
     branch: main
   timeout: 1m0s
+  secretRef:
+    name: github-instavote
   url: https://github.com/sasachde/instavote.git
 
